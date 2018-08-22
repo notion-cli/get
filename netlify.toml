@@ -1,4 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://netlify-functions.notionjs.com/.netlify/functions/get?route=:splat"
+# FIXME: we should still use a function so this works from browsers too, and redirects to an MSI for Windows
+#  to = "https://netlify-functions.notionjs.com/.netlify/functions/get?route=:splat"
+  to = "https://raw.githubusercontent.com/notion-cli/notion/master/dev/unix/boot-install.sh"
   status = 302
