@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "https://netlify-functions.notionjs.com/.netlify/functions/get?route=:splat"
+  status = 302
